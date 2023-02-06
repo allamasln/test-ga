@@ -15,8 +15,6 @@
     "clean": "gatsby clean",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "deploy:ci": "gatsby build --prefix-paths && gh-pages -d public -r  https://$GH_TOKEN@github.com/allamasln/test-ga.git"
-
-    
   },
   "dependencies": {
     "gatsby": "^5.5.0",
